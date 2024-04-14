@@ -1,4 +1,4 @@
-using CleanArch.Infra.Data;
+using CleanArch.Infra.IoC;
 using CleanArch.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 

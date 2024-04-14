@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using CleanArch.Infra.Data.Context;
 
-namespace CleanArch.Infra.Data;
+namespace CleanArch.Infra.IoC;
 
 public static class DependencyInjection
 {
