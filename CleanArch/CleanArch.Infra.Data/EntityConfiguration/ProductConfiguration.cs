@@ -15,16 +15,19 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
 
         builder.HasData(
             new Product {
+                Id = 1,
                 Name = "Tênis Olympikus",
                 Description = "Tênis esportivo. Tamanho 43/44",
                 Price = 199.90m,
             },
             new Product {
+                Id = 2,
                 Name = "Tênis Nike",
                 Description = "Tênis para corrida. Tamanho 33/34",
                 Price = 399.90m,
             },
             new Product {
+                Id = 3,
                 Name = "Sandália Havaianas",
                 Description = "Sandália de uso casual. Tamanho 30/31",
                 Price = 79.90m,
