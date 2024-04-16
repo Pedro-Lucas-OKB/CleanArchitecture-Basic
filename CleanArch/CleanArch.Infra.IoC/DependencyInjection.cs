@@ -23,7 +23,6 @@ public static class DependencyInjection
 
         services.AddDatabaseDeveloperPageExceptionFilter();
         
-        //Console.WriteLine("Conecction string: " + connectionString);
         services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
             .AddEntityFrameworkStores<ApplicationDbContext>();
 

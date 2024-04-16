@@ -19,6 +19,7 @@ public class ProductViewModel
 
     [Required(ErrorMessage = "Field 'Price' is required")]
     [Range(1, 99999.99)]
+    [DisplayFormat(ApplyFormatInEditMode =true, DataFormatString = "{0:C2}")]
     [Display(Name = "Price")]
     public decimal Price { get; set; }
 }

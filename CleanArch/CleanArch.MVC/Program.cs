@@ -1,10 +1,13 @@
 using CleanArch.Infra.IoC;
 using CleanArch.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using CleanArch.MVC.MappingConfig;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Services configurtations
 builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddAutoMapperConfiguration();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
