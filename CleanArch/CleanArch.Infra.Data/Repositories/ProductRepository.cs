@@ -41,7 +41,11 @@ public class ProductRepository : IProductRepository
 
             if(product != null) 
             {
-                _context.Update(updateProduct);
+                product.Name = updateProduct.Name;
+                product.Description = updateProduct.Description;
+                product.Price = updateProduct.Price;
+
+                _context.Update(product);
                 await _context.SaveChangesAsync();
             }
         }
