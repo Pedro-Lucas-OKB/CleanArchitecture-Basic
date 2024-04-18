@@ -8,7 +8,7 @@ A Clean Architecture é um padrão arquitetural de software baseado no princípi
 ![The Clean Architecture by Robert C. Martin](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 : The Clean Architecture by Robert C. Martin
 
-## Como está a implementada a dependência entre os projetos nessa solução?
+## Como está implementada a dependência entre os projetos nessa solução?
 
 - CleanArch.Domain
     - Como esta é a camada central (contém as regras de negócio), o projeto não faz referencia a nenhum outro projeto externo.
