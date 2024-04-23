@@ -3,7 +3,7 @@
 
 
 ## O que é a Clean Architecture?
-A Clean Architecture é um padrão arquitetural de software baseado no princípio de separação de interesses, onde a aplicação em diferentes camadas, cada uma com sua preocupação. O objetivo é proporcionar aos desenvolvedor uma forma melhor de organizar o código, separando as regras de negócio, facilitando o desenvolvimento e a manutenção do código.
+A Clean Architecture é um padrão arquitetural de software baseado no princípio de separação de interesses, onde a aplicação é dividida em diferentes camadas, cada uma com sua preocupação. O objetivo é proporcionar aos desenvolvedores uma forma melhor de organizar o código, separando as regras de negócio, facilitando o desenvolvimento e a manutenção do código.
 
 ![The Clean Architecture by Robert C. Martin](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 : The Clean Architecture by Robert C. Martin
@@ -28,14 +28,14 @@ A Clean Architecture é um padrão arquitetural de software baseado no princípi
     - Depende de CleanArch.Infra.IoC
 
 ## Testando o Projeto
-Essa aplicação não tem como foco sua apresentação e funcionalidades, mas sim a forma como os projetos foram definidos e como cada um comunica entre si, seguindo os conceitos da Clean Architecture, para fins de aprendizado.
+Essa aplicação não tem como foco sua apresentação e funcionalidades, mas sim a forma como os projetos foram definidos e como cada um se comunica entre si, seguindo os princípios da Clean Architecture, para fins de aprendizado.
 
 - Pré-requisitos:
     * [.NET 8.0 SDK](https://dotnet.microsoft.com/pt-br/download)
 
 ### Build
 ```bash
-cd Clean Architecture/
+cd CleanArchitecture-Basic/
 dotnet build
 ```
 
