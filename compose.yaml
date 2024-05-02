@@ -1,0 +1,12 @@
+services:
+  webapp:
+    build:
+      context: .
+      target: final
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      # mapping local db and container db
+      - ./CleanArch/CleanArch.MVC/app.db:/app/app.db
+    image: clean-architecture-basic

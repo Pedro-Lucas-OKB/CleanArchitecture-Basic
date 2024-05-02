@@ -1,5 +1,8 @@
 # Clean Architecture - Implementação Básica com ASP .NET Core
-![C#](https://img.shields.io/badge/-C%23-blue) ![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-green) ![ASP.NET Core](https://img.shields.io/badge/-.NET%20Core-purple)
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
+![ASP .NET](https://img.shields.io/badge/ASP_.NET-v8.0-808080?style=for-the-badge&logo=.net&logoColor=white&&labelColor=purple)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 
 ## O que é a Clean Architecture?
@@ -30,16 +33,21 @@ A Clean Architecture é um padrão arquitetural de software baseado no princípi
 ## Testando o Projeto
 Essa aplicação não tem como foco sua apresentação e funcionalidades, mas sim a forma como os projetos foram definidos e como cada um se comunica entre si, seguindo os princípios da Clean Architecture, para fins de aprendizado.
 
+### Docker
+Execute o comando ```docker compose up --build``` e acesse ```http://localhost:8080``` para testar o app.
+
+### Teste Local
 - Pré-requisitos:
     * [.NET 8.0 SDK](https://dotnet.microsoft.com/pt-br/download)
 
-### Build
+
+#### Build
 ```bash
 cd CleanArchitecture-Basic/
 dotnet build
 ```
 
-### Run
+#### Run
 ```bash
 cd CleanArch/CleanArch.MVC
 dotnet run
@@ -50,3 +58,5 @@ dotnet run
 
 Este projeto foi criado com base no conteúdo do canal do [Jose Carlos Macoratti](https://www.youtube.com/@josecarlosmacoratti), que forneceu detalhes da construção de cada projeto e como seria a dependencia entre eles.
 
+## Licença
+[![License](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
